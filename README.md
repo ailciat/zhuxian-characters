@@ -64,6 +64,16 @@ SKILL.md 顶部写着硬规则：**全程使用与提问相同的语言**，引�
 - 陆雪琪卡默认情境为望月台，可随对话推进到死灵渊、拒婚、十年后等阶段。
 - 原文未明确写出的日常细节按人物性格推断，不编写露骨情节。
 
+## 致谢
+
+本项目的产物规范与制作流程，来自 [JodieRuth/GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills)（Galgame 角色蒸馏工具）：
+
+- Skill 文件夹结构（`SKILL.md` / `soul.md` / `limit.md` / `resource/{speech_patterns,behavior_guide,relationship_dynamics,key_life_events}.md`）沿用其定义的标准；
+- 角色卡采用其规定的 chara_card_v3 格式，并按它的做法把卡片 JSON 以 base64 写入 PNG 的 `tEXt` 块（本项目额外多写一份 `ccv3`）；
+- 「分段抽取 → 角色归档 → 生成 Skill / 角色卡」的整体流水线同样参照该项目。
+
+区别只在于生成端：原工具需要自备 LLM API，本项目由模型直接阅读文本完成归纳，全程未调用外部 API。
+
 ## 免责
 
 本项目为粉丝向二创，与萧鼎、《诛仙》版权方及任何官方机构无关。如权利人认为内容不当，请联系删除。

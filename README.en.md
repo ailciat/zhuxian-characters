@@ -60,6 +60,16 @@ No external LLM API is involved; the model reads and writes everything directly.
 - The Lu Xueqi card opens on Wangyue Terrace; the conversation can move to the Abyss, the refused marriage, or the reunion ten years later.
 - Daily details absent from the novel are inferred from character, never invented as explicit scenes.
 
+## Acknowledgements
+
+The output format and production pipeline follow [JodieRuth/GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills), a Galgame character-distillation tool:
+
+- The skill folder layout (`SKILL.md` / `soul.md` / `limit.md` / `resource/{speech_patterns,behavior_guide,relationship_dynamics,key_life_events}.md`) follows its spec.
+- The cards use its chara_card_v3 format, and embed the card JSON as base64 in a PNG `tEXt` chunk the same way it does (this project also writes an extra `ccv3` chunk).
+- The overall pipeline — slice, extract, archive per character, then generate skill and card — is modelled on that project.
+
+The only difference is the generation side: the original tool requires your own LLM API, whereas this project has the model read the text and write everything directly, with no external API calls.
+
 ## Disclaimer
 
 A fan project, unaffiliated with Xiao Ding, the rights holders of *Zhu Xian*, or any official body. Rights holders may request removal of any content.
