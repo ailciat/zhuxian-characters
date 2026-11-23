@@ -1,6 +1,6 @@
 # Zhu Xian · Lu Xueqi / Bi Yao — Character Distillation
 
-Two fan-made, ready-to-use artifacts distilled from the full text of the Chinese xianxia novel *Zhu Xian* (诛仙, "Jade Dynasty"): an **Agent Skill** (thinking framework + speech style) and a **SillyTavern character card** (chara_card_v3 with data embedded in a PNG).
+Three fan-made, ready-to-use artifacts distilled from the full text of the Chinese xianxia novel *Zhu Xian* (诛仙, "Jade Dynasty"): an **Agent Skill** (thinking framework + speech style) and **SillyTavern character cards** (chara_card_v3 with data embedded in PNGs).
 
 [中文](README.md) | **English**
 
@@ -12,6 +12,7 @@ License: [MIT](LICENSE) · fan-made, unofficial
 |---|---|---|---|
 | Lu Xueqi (陆雪琪) | [`skills/luxueqi-perspective`](skills/luxueqi-perspective) | [`cards/陆雪琪_chara_card.png`](cards/陆雪琪_chara_card.png) | Eldest disciple of Mount Little Bamboo in the Qingyun Sect; the frost-sword immortal whose rigid pride hides everything soft |
 | Bi Yao (碧瑶) | [`skills/biyao-perspective`](skills/biyao-perspective) | [`cards/碧瑶_chara_card.png`](cards/碧瑶_chara_card.png) | Only daughter of the Ghost King; a girl in water-green with a bell at her waist — sharp tongue, reckless heart |
+| Zhang Xiaofan (张小凡) | [`skills/zhangxiaofan-perspective`](skills/zhangxiaofan-perspective) | [`cards/张小凡_chara_card.png`](cards/张小凡_chara_card.png) | Seventh disciple of Big Bamboo Peak; a stubborn, honest farm boy who becomes the Ghost King sect's Blood Prince |
 
 ## Using the Skills
 
@@ -34,6 +35,7 @@ Install by dropping the folder into your skills directory (e.g. `~/.claude/skill
 ```
 /陆雪琪_chat How do you see Zhang Xiaofan?
 /碧瑶_chat Why do you always call him an idiot?
+/张小凡_chat Master scolded you again — are you afraid?
 ```
 
 The hard rule at the top of each SKILL.md: **always answer in the language of the question**, including when quoting the source.
@@ -45,6 +47,7 @@ The hard rule at the top of each SKILL.md: **always answer in the language of th
 - Six lorebook entries per card:
   - Lu Xueqi: Tianya sword / Little Bamboo Peak & Master Shuiyue / Zhang Xiaofan / Bi Yao / Wangyue Terrace / the Abyss of Dead Spirits
   - Bi Yao: Shangxin Flower / Hehuan Bell / Ghost King sect & family / the Six-Fox Cave / Zhang Xiaofan / the Art of Infatuation
+  - Zhang Xiaofan: the fire-stick & Bloodsucking Bead / Big Bamboo Peak & his master / Tian Ling'er / Bi Yao / Lu Xueqi / Gui Li
 
 ## Approach
 

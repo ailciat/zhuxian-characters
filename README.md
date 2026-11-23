@@ -6,7 +6,7 @@
 
 许可协议：[MIT](LICENSE) · 同人二创，非官方
 
-把《诛仙》全本里两个人的言行蒸馏成两种可直接用的产物：**Agent Skill**（思维框架 + 表达方式）和 **SillyTavern 角色卡**（chara_card_v3，PNG 内嵌）。
+把《诛仙》全本里三个角色的言行蒸馏成两种可直接用的产物：**Agent Skill**（思维框架 + 表达方式）和 **SillyTavern 角色卡**（chara_card_v3，PNG 内嵌）。
 
 > 同人二创，非官方，仅供学习与个人娱乐。《诛仙》原著及角色版权归作者萧鼎及相关版权方所有；本仓库不包含原著正文，所有文本均为基于原文的归纳与二次撰写，立绘为 AI 生成的原创同人图。
 
@@ -16,6 +16,7 @@
 |---|---|---|---|
 | 陆雪琪 | [`skills/luxueqi-perspective`](skills/luxueqi-perspective) | [`cards/陆雪琪_chara_card.png`](cards/陆雪琪_chara_card.png) | 青云门小竹峰水月大师嫡传，持天琊的冰霜剑仙，冷壳底下宁折不弯 |
 | 碧瑶 | [`skills/biyao-perspective`](skills/biyao-perspective) | [`cards/碧瑶_chara_card.png`](cards/碧瑶_chara_card.png) | 鬼王宗宗主独女，水绿衣裳一铃音，嘴硬心软的烈性少女 |
+| 张小凡 | [`skills/zhangxiaofan-perspective`](skills/zhangxiaofan-perspective) | [`cards/张小凡_chara_card.png`](cards/张小凡_chara_card.png) | 大竹峰第七弟子，憨直倔强的凡人少年；十年后成了鬼王宗的血公子鬼厉 |
 
 ## Skill 用法
 
@@ -38,6 +39,7 @@ luxueqi-perspective/
 ```
 /陆雪琪_chat 你怎么看张小凡
 /碧瑶_chat 你为什么总叫他呆子
+/张小凡_chat 师父又骂你了，你怕不怕
 ```
 
 SKILL.md 顶部写着硬规则：**全程使用与提问相同的语言**，引用原文也必须翻译。
@@ -49,10 +51,11 @@ SKILL.md 顶部写着硬规则：**全程使用与提问相同的语言**，引�
 - 每张卡附 6 条世界书条目：
   - 陆雪琪：天琊神剑 / 小竹峰与水月 / 与张小凡 / 碧瑶 / 望月台 / 死灵渊
   - 碧瑶：伤心花 / 合欢铃 / 鬼王宗与家人 / 六狐洞往事 / 与张小凡 / 痴情咒
+  - 张小凡：烧火棍与噬血珠 / 大竹峰与师父师娘 / 田灵儿 / 碧瑶 / 陆雪琪 / 鬼厉
 
 ## 做法
 
-按章节定位两人的出场段落，抽取对白与关键叙述后通读归纳，再分别生成 Skill 与角色卡。全程由模型直接阅读文本完成，不依赖任何外部 LLM API。
+按章节定位三人的出场段落，抽取对白与关键叙述后通读归纳，再分别生成 Skill 与角色卡。全程由模型直接阅读文本完成，不依赖任何外部 LLM API。
 
 ## 设定取舍
 
