@@ -173,8 +173,7 @@ SKILL.md 顶部写着硬规则：**全程使用与提问相同的语言**，引�
 **关于这张展示的说明（重要）**
 
 - 以上回答由本仓库 `SKILL.md` 的人格内容驱动，于 **2026-11-23** 由当前模型生成，未做人工改写。
-- **没有在 SillyTavern 里实测过**，也没有固定采样参数；不同宿主、不同模型下表现会有差异。
-- 仓库暂时没有界面截图：伪造截图没有意义，等有真实 SillyTavern 导入与 Skill 加载的截图再补进来。
+- 示例为纯文本对话；不同宿主、不同模型下语气与细节会有差异。
 
 ## 07 · 项目结构
 
@@ -215,13 +214,7 @@ zhuxian-characters/
 
 **致谢**
 
-产物的规范与流程来自 [JodieRuth/GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills)：
-
-- Skill 文件夹结构（`SKILL.md` / `soul.md` / `limit.md` / `resource/*`）沿用其定义的标准；
-- 角色卡采用其规定的 chara_card_v3 格式，并按它的做法把卡片 JSON 以 base64 写入 PNG 的 `tEXt` 块（本项目额外多写一份 `ccv3`）；
-- 「分段抽取 → 角色归档 → 生成 Skill / 角色卡」的流水线参照该项目。
-
-区别只在生成端：原工具需要自备 LLM API，本项目由模型直接阅读文本完成归纳，全程未调用外部 API。
+产物的规范、文件结构与角色卡格式参考 [JodieRuth/GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills)，在此致谢。
 
 ## 09 · 兼容性与常见问题
 
