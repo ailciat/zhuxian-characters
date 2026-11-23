@@ -1,4 +1,4 @@
-# Zhu Xian · Lu Xueqi / Bi Yao — Character Distillation
+# Zhu Xian · Lu Xueqi / Bi Yao / Zhang Xiaofan — Character Distillation
 
 Three fan-made, ready-to-use artifacts distilled from the full text of the Chinese xianxia novel *Zhu Xian* (诛仙, "Jade Dynasty"): an **Agent Skill** (thinking framework + speech style) and **SillyTavern character cards** (chara_card_v3 with data embedded in PNGs).
 
