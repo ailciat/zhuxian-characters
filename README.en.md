@@ -17,7 +17,7 @@ License [MIT](LICENSE) · unofficial fan work · no text from the original novel
 This project distills three characters from *Zhu Xian* (257 chapters, ~1.6M characters) into a **structured personality model**, delivered in two forms:
 
 - **Agent Skill** — a document set for personality modeling: inner drives, speech habits, behavioral constraints, relationship dynamics and life stages, loadable by hosts that support the Agent Skill convention.
-- **SillyTavern character cards** — chara_card_v3 format, card data embedded in a PNG, import-and-play, each with six lorebook entries.
+- **SillyTavern character cards** — chara_card_v3 format, card data embedded in a PNG, ready to import, each with six lorebook entries.
 
 The three characters are no longer a static profile: they can hold a conversation, take a stance, and stay consistent when asked something the novel never covered.
 
@@ -124,7 +124,8 @@ A hard rule at the top of every `SKILL.md`: **always answer in the language of t
 5. Check that the persona and the six lorebook entries loaded.
 
 Notes:
-- PNG size 1254×1881; the `tEXt` chunk carries both `chara` (v2-compatible) and `ccv3` (v3) payloads, written to the chara_card_v3 spec.
+- PNG size 1254×1881; the same chara_card_v3 payload is written to two `tEXt` keys — `chara` (for readers that only look at the legacy key) and `ccv3` (the v3 key); both are identical.
+- The card also mirrors v2 fields at the top level (`name` / `description` / `first_mes` …), so v2-only frontends still read a complete character.
 - If a host ignores embedded PNG data, import the matching `.json` instead.
 - Lorebook entries (six per card):
   - Lu Xueqi: Tianya sword / Little Bamboo Peak & Master Shuiyue / Zhang Xiaofan / Bi Yao / Wangyue Terrace / the Abyss of Dead Spirits
