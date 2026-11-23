@@ -4,7 +4,7 @@ Two fan-made, ready-to-use artifacts distilled from the full text of the Chinese
 
 [中文](README.md) | **English**
 
-License: [CC BY-NC-SA 4.0](LICENSE) · fan-made, non-commercial
+License: [MIT](LICENSE) · fan-made, unofficial
 
 ## Contents
 
@@ -71,7 +71,7 @@ The only difference is the generation side: the original tool requires your own 
 
 1. **Unofficial.** This is a fan-made derivative work. It is not affiliated with, authorised by, or endorsed by Xiao Ding, the rights holders of *Zhu Xian*, or any official body or platform.
 2. **Ownership.** Copyright in the novel *Zhu Xian*, its characters, names and world-building belongs to its author Xiao Ding and the rights holders. This repository contains no text from the original novel; all content is summary, rewrite or secondary creation.
-3. **Non-commercial.** For personal study, research and entertainment only. Any commercial use (sale, paid distribution, bundling into a commercial product or service) is prohibited.
+3. **Scope of grant.** Original content in this repository (skill text, character cards, documentation) is licensed under MIT and may be used, modified and redistributed freely. MIT grants no rights in the novel *Zhu Xian*, its characters or world-building; commercial use of that IP may still infringe the rights holders and requires their permission.
 4. **AI-generated.** Key art is AI-generated original fan illustration. The persona text, skills and cards were written by a model after reading the novel and may contain errors or omissions; they do not represent official canon.
 5. **No guarantee of accuracy.** The content is derivative and may differ from the original text, from other readers' interpretations, or from later official works. It is not a reference for canon research.
 6. **Use at your own risk.** Users bear all consequences of using this project, including loading it in chat platforms or character-card host software. The author is not liable for any direct or indirect loss.
@@ -81,4 +81,4 @@ The only difference is the generation side: the original tool requires your own 
 
 ## License
 
-Original content in this repository is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), see [LICENSE](LICENSE). The license covers the author's original content only, not any rights in the original novel.
+Original content in this repository is licensed under MIT, see [LICENSE](LICENSE). The license covers the author's original content only, not any rights in the original novel.
