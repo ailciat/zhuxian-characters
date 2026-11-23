@@ -2,7 +2,9 @@
 
 Two fan-made, ready-to-use artifacts distilled from the full text of the Chinese xianxia novel *Zhu Xian* (诛仙, "Jade Dynasty"): an **Agent Skill** (thinking framework + speech style) and a **SillyTavern character card** (chara_card_v3 with data embedded in a PNG).
 
-> Fan work for study and personal entertainment only. Non-commercial. *Zhu Xian*, its characters and related rights belong to its author Xiao Ding (萧鼎) and the rights holders. This repository contains no text from the original novel — every line here is a summary or a rewrite. All key art is AI-generated fan illustration, not official artwork.
+[中文](README.md) | **English**
+
+License: [CC BY-NC-SA 4.0](LICENSE) · fan-made, non-commercial
 
 ## Contents
 
@@ -44,14 +46,9 @@ The hard rule at the top of each SKILL.md: **always answer in the language of th
   - Lu Xueqi: Tianya sword / Little Bamboo Peak & Master Shuiyue / Zhang Xiaofan / Bi Yao / Wangyue Terrace / the Abyss of Dead Spirits
   - Bi Yao: Shangxin Flower / Hehuan Bell / Ghost King sect & family / the Six-Fox Cave / Zhang Xiaofan / the Art of Infatuation
 
-## How it was made
+## Approach
 
-1. Split the 257 chapters (~1.6M characters) on chapter headings.
-2. Count appearances: Lu Xueqi in 119 chapters, Bi Yao in 99.
-3. Extract paragraph-level evidence from hit chapters (sentences naming the character plus nearby context), compress into evidence packs, then read them through.
-4. Distill character core, tone layers, relationship dynamics, timeline and boundaries — then generate the skill and the card separately.
-
-No external LLM API is involved; the model reads and writes everything directly.
+Locate each character's scenes chapter by chapter, extract the dialogue and key narration, read it through, then generate the skill and the card separately. Everything is read and written directly by the model — no external LLM API is involved.
 
 ## Design decisions
 
@@ -72,4 +69,16 @@ The only difference is the generation side: the original tool requires your own 
 
 ## Disclaimer
 
-A fan project, unaffiliated with Xiao Ding, the rights holders of *Zhu Xian*, or any official body. Rights holders may request removal of any content.
+1. **Unofficial.** This is a fan-made derivative work. It is not affiliated with, authorised by, or endorsed by Xiao Ding, the rights holders of *Zhu Xian*, or any official body or platform.
+2. **Ownership.** Copyright in the novel *Zhu Xian*, its characters, names and world-building belongs to its author Xiao Ding and the rights holders. This repository contains no text from the original novel; all content is summary, rewrite or secondary creation.
+3. **Non-commercial.** For personal study, research and entertainment only. Any commercial use (sale, paid distribution, bundling into a commercial product or service) is prohibited.
+4. **AI-generated.** Key art is AI-generated original fan illustration. The persona text, skills and cards were written by a model after reading the novel and may contain errors or omissions; they do not represent official canon.
+5. **No guarantee of accuracy.** The content is derivative and may differ from the original text, from other readers' interpretations, or from later official works. It is not a reference for canon research.
+6. **Use at your own risk.** Users bear all consequences of using this project, including loading it in chat platforms or character-card host software. The author is not liable for any direct or indirect loss.
+7. **Platform rules and law.** Users must comply with the content policies of their platform and with local laws, and must not use this content for unlawful purposes.
+8. **Notice and takedown.** If a rights holder believes this content infringes their rights, please open an Issue; the author will remove or amend the relevant content promptly after verification.
+9. **No warranty.** Provided "as is", without any express or implied warranty.
+
+## License
+
+Original content in this repository is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), see [LICENSE](LICENSE). The license covers the author's original content only, not any rights in the original novel.
